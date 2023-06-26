@@ -1,0 +1,76 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+
+  color: lavender;
+  /*removes horizontal scroll behavior*/
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #460263;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 24px;
+    height: 64px;
+  }
+  
+  .nav li {
+    float: left;
+  }
+  
+  .nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 19px 16px;
+    text-decoration: none;
+  }
+  
+  .nav li a:hover,
+  .circle:hover {
+    background-color: #6e039c;
+  }
+  
+  .nav img {
+    width: 30px;
+    height: auto;
+  
+    /*filter function: https://codepen.io/sosuke/pen/Pjoqqp*/
+    filter: invert(100%) sepia(10%) saturate(41%) hue-rotate(316deg) brightness(99%) contrast(108%);
+  }
+  
+  .nav li:last-child {
+    float: right;
+  }
+  
+  .active {
+    background-color: purple;
+  }
+
+  body {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .main {
+    background-color: rgba(0, 0, 0, 0.85);
+    margin: 75px 32px;
+    padding: 25px;
+  }
+
+  h1,
+h4 {
+  text-align: center;
+}
+
