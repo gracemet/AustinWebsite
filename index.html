@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width">
   <title>Austin Duggin</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="path/to/instafeed.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
@@ -20,7 +22,12 @@
 
   <!--Main Panel with Content-->
   <div class="main">  
-    
+    <div id="instafeed"></div>
+
+    <script type="text/javascript">
+      var feed = new Instafeed({accessToken: 'IGQVJXQ3M4M2tyS1dObDAzTEplcXNyMDhYYUdvWE1lQkN0Yks1aFNlVVJDV0VBNDYwNHhJY0tfVlpmaGRyVlRPLVFHbWg5TFdrMVFQMmVWUmNOb2tvbWJVMDBSOTRvaDdFcnVTOXBqSlE3a3NSM2EyRgZDZD'});
+      feed.run();
+    </script>
 
   </div>
 
